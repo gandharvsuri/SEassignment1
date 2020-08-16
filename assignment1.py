@@ -3,14 +3,16 @@ def addition(a,b):
 
 def subtraction(a,b):
 	return a-b;
-
+def divide(a,b):
+	if(b!=0)
+		return a/b;
 
 if __name__ == "__main__":
 	a = 3
 	b = 5
 	print(addition(a,b))
 	print(subtraction(a,b))
-
+	print(divide(a,b))
 
 '''
 clone from github
