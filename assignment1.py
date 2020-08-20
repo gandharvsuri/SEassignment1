@@ -4,16 +4,13 @@ def addition(a,b):
 def subtraction(a,b):
 	return a-b;
 
-<<<<<<< HEAD
 def division(a,b):
     if(b!=0):
         return a/b;
     else return "Not Possible";
 
-=======
 def multiplication(a,b):
     return a*b;
->>>>>>> mult
 if __name__ == "__main__":
 	a = 3
 	b = 5
